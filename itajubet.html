@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itaju Bet - Sua plataforma de apostas</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-green-600 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Itaju Bet</h1>
+        <nav>
+            <a href="#" class="mr-4 hover:underline">Início</a>
+            <a href="#apostar" class="mr-4 hover:underline">Apostar</a>
+            <a href="#login" class="hover:underline">Login</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center p-10 bg-green-500 text-white">
+        <h2 class="text-4xl font-bold mb-4">Bem-vindo à Itaju Bet</h2>
+        <p class="text-lg">Aposte em seus esportes favoritos e ganhe prêmios incríveis!</p>
+        <a href="#apostar" class="mt-6 inline-block bg-white text-green-600 font-bold py-2 px-4 rounded-lg hover:bg-gray-200">Começar a Apostar</a>
+    </section>
+
+    <!-- Seção de Apostas -->
+    <section id="apostar" class="p-8">
+        <h2 class="text-2xl font-bold text-center mb-6">Jogos Disponíveis</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Jogo 1 -->
+            <div class="bg-white p-4 rounded shadow text-center">
+                <h3 class="font-bold text-xl mb-2">Itaju FC vs Bahia FC</h3>
+                <p class="mb-4">Data: 30/04/2025</p>
+                <button class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">Apostar Agora</button>
+            </div>
+
+            <!-- Jogo 2 -->
+            <div class="bg-white p-4 rounded shadow text-center">
+                <h3 class="font-bold text-xl mb-2">Vitória FC vs Itabuna FC</h3>
+                <p class="mb-4">Data: 01/05/2025</p>
+                <button class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">Apostar Agora</button>
+            </div>
+
+            <!-- Jogo 3 -->
+            <div class="bg-white p-4 rounded shadow text-center">
+                <h3 class="font-bold text-xl mb-2">Flamengo vs Palmeiras</h3>
+                <p class="mb-4">Data: 02/05/2025</p>
+                <button class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">Apostar Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login / Cadastro -->
+    <section id="login" class="p-8 bg-white mt-10">
+        <h2 class="text-2xl font-bold text-center mb-6">Login / Cadastro</h2>
+        <form class="max-w-md mx-auto">
+            <input type="text" placeholder="Usuário" class="block w-full p-3 border mb-4 rounded">
+            <input type="password" placeholder="Senha" class="block w-full p-3 border mb-4 rounded">
+            <button type="submit" class="bg-green-500 text-white w-full py-3 rounded hover:bg-green-600">Entrar</button>
+            <p class="text-center mt-4">
+                Novo por aqui? <a href="#" class="text-green-600 font-bold hover:underline">Cadastre-se</a>
+            </p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white text-center p-4 mt-10">
+        &copy; 2025 Itaju Bet. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
